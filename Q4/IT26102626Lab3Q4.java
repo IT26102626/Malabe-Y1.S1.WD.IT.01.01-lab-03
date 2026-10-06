@@ -34,15 +34,14 @@ public class IT26102626Lab3Q4{
 	digit4 = number/10;
 	number = number%10;
 	
-	//Calculate the fifth digit
-	digit5 = number/1;
-	number = number%1;
+	//Assigning the value for the fifth digit
+	digit5 = number;
 	
 	//Displaying the digits
 	System.out.println();
 	System.out.print(digit1 + " ");
 	System.out.print(digit2 + " ");
-	System.out.print(digit3 + "  ");
+	System.out.print(digit3 + " ");
 	System.out.print(digit4 + " ");
 	System.out.print(digit5);
 	}
